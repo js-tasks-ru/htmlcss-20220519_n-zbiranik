@@ -1,6 +1,5 @@
 /* Стилизация кнопки */
 .button{
-    width: 189px;
     height: 48px;
     border-radius: 8px;
     font-family: 'Roboto';
@@ -10,18 +9,19 @@
     line-height: 19px;
     text-align: center;
     cursor: pointer;
+    padding: 15px 65px 14px 65px;
 }
 
 .button_primary {
     background: var(--primary);
     border: 1px solid var(--primary);
-    color: #fff;
+    color: var(--white);
 }
 
 .button_secondary {
     background: var(--secondary);
     border: 1px solid var(--secondary);
-    color: #fff;
+    color: var(--white);
 }
 
 .button_alternate {
