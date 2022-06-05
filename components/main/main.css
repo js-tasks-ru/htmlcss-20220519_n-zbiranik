@@ -1,4 +1,10 @@
 .main{
     background: #F9FAFC;
-    min-height: 500px;
+}
+
+.main_menu{
+    padding: 36px 165px 92px 165px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
 }
