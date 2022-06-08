@@ -1,0 +1,9 @@
+.container_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    padding-top: 36px;
+    padding-bottom: 92px;
+    width: 1110px;
+    margin: 0 auto;
+}
