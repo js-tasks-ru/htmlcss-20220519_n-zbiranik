@@ -55,7 +55,7 @@
 }
 
 .histogram__items{
-    margin: 39px 0 0 0;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -71,9 +71,15 @@
 }
 
 .histogram_preview{
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+@media (min-width: 400px) {
+    .histogram__items{
+        margin: 39px 0 0 0;
+    }
 }
