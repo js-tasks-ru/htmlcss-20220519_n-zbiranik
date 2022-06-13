@@ -7,7 +7,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--grey-3);
-    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .input__text{
@@ -17,9 +17,7 @@
     font-size: 20px;
     line-height: 26px;
     color: var(--grey-4);
-    padding-top: 17px;
-    padding-left: 24px;
-    padding-bottom: 13px;
+    padding: 17px 24px 13px 24px;
     background: var(--white);
     border: 1px solid var(--grey-2);
     border-radius: 8px;
