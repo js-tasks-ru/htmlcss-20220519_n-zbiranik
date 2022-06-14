@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Главная страница -->
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./tabs.css">
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <div class="header__logo">
+                    <img class="header__logo-image" src="../../assets/images/logo.svg" alt="logo">
+                </div>
+                <div class="container">
+                    <h1 class="header__title">Reusable component library</h1>
+                </div>
+            </header>
+            <div class="tabs">
+                <input type="radio" name="radioTab" id="all-tab" class="tab__input" checked>
+                <input type="radio" name="radioTab" id="elements-tab" class="tab__input">
+                <input type="radio" name="radioTab" id="containers-tab" class="tab__input">
+                <input type="radio" name="radioTab" id="templates-tab" class="tab__input">
+
+                <div class="tabs__scroller">
+                    <label for="all-tab" class="tab__title">All components</label>
+                    <label for="elements-tab" class="tab__title">Elements</label>
+                    <label for="containers-tab" class="tab__title">Containers</label>
+                    <label for="templates-tab" class="tab__title">Templates</label>
+                </div>
+
+                <div class="tabs__content tabs__content_all preview">
+                    Content All components
+                </div>
+                <div class="tabs__content tabs__content_elements preview">
+                    Content Elements
+                </div>
+                <div class="tabs__content tabs__content_containers preview">
+                    Content Containers
+                </div>
+                <div class="tabs__content tabs__content_templates preview">
+                    Content Templates
+                </div>
+            </div>
+            <footer class="footer">
+                <h2 class="footer__title">About</h2>
+                <div class="container">
+                    <p class="footer__content">
+                        This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

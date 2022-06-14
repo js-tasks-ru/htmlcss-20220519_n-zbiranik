@@ -1,0 +1,76 @@
+.tab__input{
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+
+.tab__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+    padding-bottom: 8px;
+}
+
+.tabs__scroller{
+    padding-bottom: 8px;
+}
+
+#all-tab:checked ~ .tabs__scroller .tab__title[for="all-tab"]{
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+
+#all-tab:focus ~ .tabs__scroller .tab__title[for="all-tab"]{
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+#elements-tab:focus ~ .tabs__scroller .tab__title[for="elements-tab"]{
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+#containers-tab:focus ~ .tabs__scroller .tab__title[for="containers-tab"]{
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+#templates-tab:focus ~ .tabs__scroller .tab__title[for="templates-tab"]{
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+
+.tabs__content{
+    display: none;
+}
+
+.tabs__content_all{
+    display: block;
+}
+
+#all-tab:focus ~ .tabs__content{
+    display: none;
+}
+#all-tab:focus ~ .tabs__content_all{
+    display: block;
+}
+
+#elements-tab:focus ~ .tabs__content{
+    display: none;
+}
+#elements-tab:focus ~ .tabs__content_elements{
+    display: block;
+}
+
+#containers-tab:focus ~ .tabs__content{
+    display: none;
+}
+#containers-tab:focus ~ .tabs__content_containers{
+    display: block;
+}
+
+#templates-tab:focus ~ .tabs__content{
+    display: none;
+}
+#templates-tab:focus ~ .tabs__content_templates{
+    display: block;
+}
