@@ -17,10 +17,4 @@
     .container_hidden{
         display: block;
     }
-
-    .container_menu{
-        padding-top: 36px;
-        padding-bottom: 92px;
-        width: 1110px;
-    }
 }
