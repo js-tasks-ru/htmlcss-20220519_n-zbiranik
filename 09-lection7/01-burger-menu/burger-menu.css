@@ -1,0 +1,49 @@
+.burger {
+    display: block;
+}
+
+.burger-menu{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 64px;
+    background: var(--white);
+    transform: translateX(-100vw);
+    transition: transform 200ms ease-in-out;
+}
+
+.burger-menu__open, .burger-menu__close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.burger-menu__close{
+    visibility: hidden;
+}
+
+.burger-menu__open{
+    visibility: visible;
+}
+
+.burger-menu[data-open]{
+    transform: translateX(0);
+}
+
+.burger-menu[data-open] ~ .burger-menu__close{
+    visibility: visible;
+}
+
+.burger-menu[data-open] ~ .burger-menu__open{
+    visibility: hidden;
+}
+
+@media (min-width: 400px) {
+    .burger {
+        display: none;
+    }
+}
+
