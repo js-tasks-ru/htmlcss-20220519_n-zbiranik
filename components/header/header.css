@@ -1,26 +1,64 @@
 .header{
-    padding-top: 24px;
-    padding-bottom: 40px;
+    padding-top: 17px;
+    padding-bottom: 69px;
     background: var(--white);
 }
 
+.header_colored{
+    background: var(--white-2);
+}
+
+.header_minimized{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
 .header__title{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
-    color: var(--black);
-    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+    margin: 49px 0 0 16px;
 }
 
 .header__logo{
-    padding-left: 5px;
     width: 110px;
     height: 32px;
+    margin: 0 auto;
 }
 
 .header__logo-image{
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 400px) {
+    .header__logo{
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    .header__title{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 64px;
+        color: var(--black);
+        margin: 40px 0 0 0;
+    }
+
+    .header{
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+
+    .header_colored{
+        background: var(--white);
+    }
+
+    .header_minimized{
+        padding-top: 17px;
+        padding-bottom: 69px;
+    }
 }

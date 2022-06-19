@@ -1,11 +1,30 @@
 .preview{
     background: var(--white-2);
-    padding: 68px 165px;
+}
+
+.preview_mobile{
+    background: var(--white);
 }
 
 .preview__inner{
+    max-width: 1110px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 22px 0;
+}
+
+@media (min-width: 400px) {
+    .preview__inner{
+        padding: 67px 0;
+    }
+
+    .preview_mobile{
+        background: var(--white-2);
+        padding-top: 36px;
+        padding-bottom: 92px;
+    }
 }

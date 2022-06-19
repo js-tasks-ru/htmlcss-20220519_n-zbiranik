@@ -6,12 +6,17 @@
     </head>
     <body>
         <div class="page">
-            <header class="header">
-                <div class="container">
+            <header class="header header_colored header_minimized">
+                <div class="container__logo">
+                    <div class="header__logo">
+                        <img class="header__logo-image" src="../assets/images/logo.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="container container_hidden">
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>
-            <main class="main">
+            <main class="preview preview_mobile">
                 <div class="container container_menu">
                     <nav class="menu">
                         <div class="menu__title">Components</div>
@@ -25,7 +30,30 @@
                     </nav>
                     <article class="element">
                         <h1 class="element__title">Histogram</h1>
-                        <div class="element__content"></div>
+                        <div class="element__content">
+                            <section class="histogram">
+                                <header class="histogram__titles">
+                                    <div class="histogram__title">Total orders</div>
+                                    <div class="histogram__detail">
+                                        <a class="histogram__link" href="#">View all</a>
+                                    </div>
+                                </header>
+                                <main class="histogram__main">
+                                    <div class="container">
+                                        <span class="histogram__count">50254</span>
+                                    </div>
+                                    <div class="histogram__items">
+                                        <div class="histogram__item" style="height: 20%;"></div>
+                                        <div class="histogram__item" style="height: 15%;"></div>
+                                        <div class="histogram__item" style="height: 2%;"></div>
+                                        <div class="histogram__item" style="height: 18%;"></div>
+                                        <div class="histogram__item" style="height: 5%;"></div>
+                                        <div class="histogram__item" style="height: 78%;"></div>
+                                        <div class="histogram__item" style="height: 28%;"></div>
+                                    </div>
+                                </main>
+                            </section>
+                        </div>
                     </article>
                 </div>
             </main>
