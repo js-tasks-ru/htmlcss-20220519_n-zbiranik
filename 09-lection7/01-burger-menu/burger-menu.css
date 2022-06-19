@@ -1,0 +1,22 @@
+.burger-menu{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--white);
+    transform: translateX(-100vw);
+    transition: transform 200ms ease-in-out;
+}
+
+.burger-menu[data-open]{
+    transform: translateX(0);
+}
+
+@media (min-width: 400px) {
+    .burger-menu{
+        display: none;
+    }
+}
+
