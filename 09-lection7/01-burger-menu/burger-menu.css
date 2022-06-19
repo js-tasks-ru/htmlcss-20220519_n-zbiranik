@@ -1,10 +1,11 @@
-.burger {
+.burger-menu__open {
     display: block;
 }
 
 .burger-menu{
     width: 100vw;
     height: 100vh;
+    display: block;
     position: fixed;
     left: 0;
     top: 0;
@@ -18,7 +19,11 @@
 }
 
 @media (min-width: 400px) {
-    .burger {
+    .burger-menu{
+        display: none;
+    }
+
+    .burger-menu__open{
         display: none;
     }
 }
