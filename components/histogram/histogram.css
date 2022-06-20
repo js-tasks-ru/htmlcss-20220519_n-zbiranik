@@ -70,14 +70,6 @@
     flex-grow: 1;
 }
 
-.histogram_preview{
-    width: 100%;
-    box-sizing: border-box;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 @media (min-width: 400px) {
     .histogram__items{
         margin: 39px 0 0 0;
