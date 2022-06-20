@@ -7,9 +7,15 @@
 @import '/components/page/page.css';
 @import '/components/button/button.css';
 @import '/components/card/card.css';
-@import '/components/histogram/histogram.css';
 @import '/components/menu/menu.css';
 @import '/components/element/element.css';
+@import '/components/histogram/histogram.css';
+@import '/components/tooltip/tooltip.css';
+@import '/components/calendar/calendar.css';
+@import '/components/avatar/avatar.css';
+@import '/components/formElements/checkbox.css';
+@import '/components/formElements/radio.css';
+@import '/components/modal/modal.css';
 
 :root {
     --white: #ffffff;

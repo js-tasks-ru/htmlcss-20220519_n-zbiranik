@@ -6,8 +6,8 @@
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 .card__title{
@@ -22,11 +22,32 @@
 }
 
 .card__preview{
+    position: relative;
     flex-grow: 1;
     width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
     box-sizing: border-box;
+}
+
+.card__preview-element{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__parts{
+    display: flex;
+    flex-direction: row;
+}
+
+.card__half{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.card__half-element{
+    padding-bottom: 16px;
 }
 
 @media (min-width: 400px) {
